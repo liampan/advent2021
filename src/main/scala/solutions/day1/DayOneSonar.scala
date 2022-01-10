@@ -2,7 +2,7 @@ package solutions.day1
 
 import utils.InputReader
 
-object DayOneSubmarine extends App {
+object DayOneSonar extends App {
 
   val input: List[Int] = InputReader.getInput("day1/sonar.txt")
     .map(_.toInt)
