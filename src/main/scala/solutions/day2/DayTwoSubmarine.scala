@@ -3,7 +3,7 @@ package solutions.day2
 import utils.InputReader
 
 object DayTwoSubmarine extends App {
-  
+
   final case class Submarine(horizontal: Int, depth: Int, aim: Int){
     def finalPosition: Int = horizontal * depth
   }
